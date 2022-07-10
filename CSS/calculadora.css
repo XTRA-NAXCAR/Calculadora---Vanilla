@@ -1,0 +1,120 @@
+* {    
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: url(https://cdn.discordapp.com/attachments/696040243748536401/850445513542205531/1-IrFMpUu.png);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.calculadora {    
+    width: 500px;
+    height: 850px;    
+    background: url(../Image/fondo_calculadora.jpg);
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;    
+}
+
+.display {
+    width: 450px;
+    height: 200px;
+    color: #ffff;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #363636;
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+}
+.button-c {
+    --bs-btn-padding-y: 24px; 
+    --bs-btn-padding-x: 70px; 
+    --bs-btn-font-size: 30px;
+}
+
+
+.css-del{
+    --bs-btn-padding-y: 29px; 
+    --bs-btn-padding-x: 8px; 
+    --bs-btn-font-size: 25px;
+}
+
+.css-numero{
+    --bs-btn-padding-y: 25px;
+    --bs-btn-padding-x: 25px;
+    --bs-btn-font-size: 30px;
+}
+
+.css-resultado-suma{
+    --bs-btn-padding-y: 25px;
+    --bs-btn-padding-x: 25px;
+    --bs-btn-font-size: 30px;
+}
+
+.css-punto{
+    --bs-btn-padding-y: 18px; 
+    --bs-btn-padding-x: 29px; 
+    --bs-btn-font-size: 40px;
+}
+.css-salir{
+    --bs-btn-padding-y: 25px;
+    --bs-btn-padding-x: 20px;
+    --bs-btn-font-size: 30px;
+}
+
+.css-numero-1{
+    --bs-btn-padding-y: 25px;
+    --bs-btn-padding-x: 27px;
+    --bs-btn-font-size: 30px;
+}
+
+.css-resta{
+    --bs-btn-padding-y: 19px; 
+    --bs-btn-padding-x: 25px; 
+    --bs-btn-font-size: 40px;
+}
+
+.css-multiplicacion{
+    --bs-btn-padding-y: 19px; 
+    --bs-btn-padding-x: 20px; 
+    --bs-btn-font-size: 40px;
+}
+
+.css-operacion{
+    font-size:2.5em;
+}
+
+.css-resultado-operacion{
+    font-size:2em;
+}
+
+.css-firma {
+    position: absolute;
+    width: 250px;
+    top: 85%;
+    left: 85%;
+}
+
+.css-creditos {
+    position:absolute;
+    width: 250px;
+    top: 95%;
+    left: 1%;
+}
